@@ -100,7 +100,28 @@ Defeat the Wizard/
 ## 🔧 Requirements
 
 - Python 3.x
+- A Python virtual environment (`.venv`) is required
 - No external libraries required (uses only `random` module)
+
+## 🧪 Virtual Environment Setup (Required)
+
+Create and activate a virtual environment before running the game.
+
+### Windows (PowerShell)
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python battlefield.py
+```
+
+### Windows (Command Prompt)
+
+```bat
+python -m venv .venv
+.venv\Scripts\activate.bat
+python battlefield.py
+```
 
 ## 💡 Strategy Tips
 
